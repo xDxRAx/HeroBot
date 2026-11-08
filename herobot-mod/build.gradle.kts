@@ -92,8 +92,6 @@ tasks {
         val props = mapOf(
             "version" to project.version,
             "minecraft_version" to libs.versions.minecraft.get(),
-            "minecraft_range" to libs.versions.compat.range.get(),
-            "loader_version" to libs.versions.fabric.loader.get(),
         )
 
         inputs.properties(props)

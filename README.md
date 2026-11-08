@@ -2,6 +2,12 @@ This mod is made for datapack makers to make bots that can fight back
 
 The bots have a much higher parity with a vanilla client compared to carpet, with things like Auto-Jump and the spear working.
 
+## Fabric 26.2 fork
+
+This fork limits the Fabric build to Minecraft Java Edition 26.2. [Original HeroBot 26.2 branch by HerobaneNair](https://github.com/HerobaneNair/HeroBot/tree/26.2) · [CC BY-NC-SA 4.0 license](LICENSE.txt)
+
+Build with JDK 25 using `./gradlew :herobot-mod:shadowJar` (`gradlew.bat :herobot-mod:shadowJar` on Windows). Replace any older HeroBot JAR with the `herobot-fabric-*.jar` from `herobot-mod/build/libs/` in the Fabric instance's `mods` directory. Install the matching Fabric API in the same directory. [Fabric API for 26.2](https://modrinth.com/mod/fabric-api/versions?g=26.2)
+
 --- 
 ## Now compatible with carpet mod
 

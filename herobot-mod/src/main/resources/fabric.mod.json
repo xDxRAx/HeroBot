@@ -36,7 +36,7 @@
   "depends": {
     "fabricloader": ">=0.19.0",
     "fabric-api": "*",
-    "minecraft": "${minecraft_range}"
+    "minecraft": "${minecraft_version}"
   },
   "suggests": {
     "voicechat": ">=2.5.0"
